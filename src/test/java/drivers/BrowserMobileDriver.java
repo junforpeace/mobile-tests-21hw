@@ -1,7 +1,7 @@
 package drivers;
 
 import com.codeborne.selenide.WebDriverProvider;
-import helpers.AndroidBSConfig;
+import config.BSConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.MutableCapabilities;
@@ -12,7 +12,7 @@ import java.net.URL;
 
 
 public class BrowserMobileDriver implements WebDriverProvider {
-    static AndroidBSConfig config = ConfigFactory.create(AndroidBSConfig.class);
+    static BSConfig config = ConfigFactory.create(BSConfig.class);
 
     @Override
     public WebDriver createDriver(Capabilities capabilities) {

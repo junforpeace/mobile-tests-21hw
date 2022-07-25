@@ -1,11 +1,9 @@
-package helpers;
+package config;
 
 import org.aeonbits.owner.Config;
 
-import java.net.URL;
-
-@Config.Sources({"classpath:credentials.properties"})
-public interface AndroidBSConfig extends Config{
+@Config.Sources({"classpath:properties/browserstack.properties"})
+public interface BSConfig extends Config{
 
     @Key("login")
     String login();
