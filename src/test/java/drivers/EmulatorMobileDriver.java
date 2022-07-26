@@ -23,7 +23,7 @@ public class EmulatorMobileDriver implements WebDriverProvider {
     static EmulatorConfig emulatorConfig = ConfigFactory.create(EmulatorConfig.class, System.getProperties());
     public static URL getAppiumServerUrl() {
         try {
-            return new URL(emulatorConfig.baseUrl());
+            return new URL(emulatorConfig.localUrl());
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }

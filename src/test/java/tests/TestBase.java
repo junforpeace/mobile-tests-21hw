@@ -21,7 +21,7 @@ public class TestBase {
     static String host = System.getProperty("host", "emulator");
     @BeforeAll
     public static void setup() {
-        switch (  host) {
+        switch (host) {
             case ("device"):
                 Configuration.browser = DeviceMobileDriver.class.getName();
                 break;

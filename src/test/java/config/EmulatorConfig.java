@@ -6,7 +6,7 @@ import org.aeonbits.owner.Config;
 @Config.Sources("classpath:properties/emulator.properties")
 public interface EmulatorConfig extends Config {
 
-    String baseUrl();
+    String localUrl();
 
     @Key("platform_name")
     @DefaultValue("android")
@@ -19,6 +19,8 @@ public interface EmulatorConfig extends Config {
     @Key("platform_version")
     @DefaultValue("11")
     String platformVersion();
+
+    String host();
 
 
 }

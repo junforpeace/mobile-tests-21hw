@@ -31,4 +31,6 @@ public interface BSConfig extends Config{
 
     @Key("name")
     String testName();
+
+    String host();
 }

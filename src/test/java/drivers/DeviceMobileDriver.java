@@ -22,7 +22,7 @@ public class DeviceMobileDriver implements WebDriverProvider {
     static DeviceConfig deviceConfig = ConfigFactory.create(DeviceConfig.class, System.getProperties());
     public static URL getAppiumServerUrl() {
         try {
-            return new URL(deviceConfig.baseUrl());
+            return new URL(deviceConfig.localUrl());
         } catch (MalformedURLException e) {
             throw new RuntimeException(e);
         }

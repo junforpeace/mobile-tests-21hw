@@ -6,7 +6,7 @@ import org.aeonbits.owner.Config;
 @Config.Sources("classpath:properties/device.properties")
 public interface DeviceConfig extends Config {
 
-    String baseUrl();
+    String localUrl();
 
     @Key("platform_name")
     @DefaultValue("android")
@@ -19,4 +19,6 @@ public interface DeviceConfig extends Config {
     @Key("platform_version")
     @DefaultValue("11")
     String platformVersion();
+
+    String host();
 }
