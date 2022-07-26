@@ -2,6 +2,7 @@ package tests;
 
 import com.codeborne.selenide.Condition;
 import io.appium.java_client.AppiumBy;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import static com.codeborne.selenide.Selenide.$;
@@ -10,6 +11,7 @@ import static io.qameta.allure.Allure.step;
 
 public class OnboardingTest extends TestBase{
 
+    @Tag("onboarding")
     @Test
     void addLanguageTest() {
 
@@ -22,6 +24,7 @@ public class OnboardingTest extends TestBase{
 
         });
     }
+    @Tag("onboarding")
         @Test
         void goNextStep() {
             step("Info about settings", () -> {
@@ -30,6 +33,7 @@ public class OnboardingTest extends TestBase{
 
             });
         }
+    @Tag("onboarding")
     @Test
     void goThirdStep() {
         step("Offer to join", () -> {
@@ -39,6 +43,7 @@ public class OnboardingTest extends TestBase{
 
         });
     }
+        @Tag("onboarding")
         @Test
         void goFourthStep() {
             step("Send report", () -> {
