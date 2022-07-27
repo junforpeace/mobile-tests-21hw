@@ -21,7 +21,7 @@ public class OnboardingTest extends TestBase{
     }
 
     @Disabled
-    //@Tag("onboarding")
+    @Tag("onboarding")
     @Test
     void addLanguageTest() {
 
