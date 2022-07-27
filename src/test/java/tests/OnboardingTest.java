@@ -43,7 +43,6 @@ public class OnboardingTest extends TestBase{
                     .shouldHave(text("GET STARTED")).click();
             $(AppiumBy.id("org.wikipedia.alpha:id/search_container")).shouldBe(visible);
         });
-
     }
     @Disabled
     @Tag("onboarding")
