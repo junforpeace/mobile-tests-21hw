@@ -24,6 +24,8 @@
 <img width="6%" title="GitHub" src="images/github-logo.png">
 <img width="4%" title="Jenkins" src="images/jenkins-logo.png">
 <img width="6%" title="Telegram" src="images/Telegram_2019_Logo.svg.png">
+<img width="10%" title="Appium" src="images/appium.png">
+<img width="8%" title="BrowserStack" src="images/browserStack.jpeg">
 </p>
 
 ## :clipboard: Test-cases
@@ -82,9 +84,9 @@ test
 
 
 
-## <img width="4%" title="Telegram" src="images/selenoid-logo.png"> Example video from BrowserStack
+## <img width="4%" title="BrowserStack logo" src="images/browserStack.jpeg"> Example video from BrowserStack
 
 Every test contains last screenshots, page source, browser console logs, video in attachments. One of this viedo can see below.
 <p align="center">
-<img title="Selenoid Video" src="images/videobrowserstack.gif">
+<img title="BrowserStack Video" src="images/videobrowserstack.gif">
 </p>
