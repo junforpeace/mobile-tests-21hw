@@ -2,11 +2,14 @@ package config;
 
 import org.aeonbits.owner.Config;
 
+import java.net.URL;
+
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({"system:properties",
         "classpath:properties/device.properties"})
 public interface DeviceConfig extends Config {
 
+    @Key("localUrl")
     String localUrl();
 
     @Key("platform_name")
