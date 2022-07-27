@@ -1,6 +1,6 @@
 # mobile-tests-example
 # Project with mobile tests for wikipedia app.
-<img width="100%" title="wikipedia" src="images/wikipedia.jpeg">
+<img width="80%" title="wikipedia" src="images/wikipedia.jpeg">
 
 ## :page_with_curl: Scope:
 
