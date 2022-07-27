@@ -8,7 +8,6 @@ import org.aeonbits.owner.Config;
 public interface EmulatorConfig extends Config {
 
     String localUrl();
-
     @Key("platform_name")
     @DefaultValue("android")
     String platformName();
@@ -20,8 +19,5 @@ public interface EmulatorConfig extends Config {
     @Key("platform_version")
     @DefaultValue("11")
     String platformVersion();
-
-    String host();
-
 
 }
