@@ -34,8 +34,7 @@ Checking 4th Onboarding page Get started
 
 ## <img width="4%" title="Jenkins Job src="images/jenkins-logo.png"> Jenkins job
  https://jenkins.autotests.cloud/job/HW_22MobileTests/
-![image](https://user-images.githubusercontent.com/65370123/180200201-86bbc089-6907-4a0d-8c20-423c930c7cee.png)
-![image](https://user-images.githubusercontent.com/65370123/180200851-987bedd8-f403-4138-a058-3a375efac674.png)
+
 
 
 ## :keyboard: Launch from terminal
