@@ -27,10 +27,11 @@
 </p>
 
 ## :clipboard: Test-cases
-First Onboarding page checking
-Checking Info about Onboardingsettings
-Checking 3rd Onboarding page Offer to join
-Checking 4th Onboarding page Get started
+- First Onboarding page checking:heavy_check_mark:
+- Checking Info about Onboardingsettings:heavy_check_mark:
+- Checking 3rd Onboarding page Offer to join:heavy_check_mark:
+- Checking 4th Onboarding page Get started:heavy_check_mark:
+- Search articles test :heavy_check_mark:
 
 ## <img width="4%" title="Jenkins Job src="images/jenkins-logo.png"> Jenkins job
  https://jenkins.autotests.cloud/job/HW_22MobileTests/
@@ -56,7 +57,7 @@ test
 clean
 test
 -Dhost=browserStack
-
+```
 ## <img width="4%" title="Allure Report" src="images/allurereport-logo.png"> Test results report [Allure Report]()
 ### :pushpin: Overview page Allure-report
 
