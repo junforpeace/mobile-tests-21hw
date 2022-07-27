@@ -3,7 +3,8 @@ package config;
 import org.aeonbits.owner.Config;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
-@Config.Sources("classpath:properties/emulator.properties")
+@Config.Sources({"system:properties",
+        "classpath:properties/device.properties"})
 public interface EmulatorConfig extends Config {
 
     String localUrl();
