@@ -28,7 +28,7 @@
 
 ## :clipboard: Test-cases
 - First Onboarding page checking:heavy_check_mark:
-- Checking Info about Onboardingsettings:heavy_check_mark:
+- Checking Info about Onboarding settings:heavy_check_mark:
 - Checking 3rd Onboarding page Offer to join:heavy_check_mark:
 - Checking 4th Onboarding page Get started:heavy_check_mark:
 - Search articles test :heavy_check_mark:
